@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    li
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="sticky">
+            <div class="navdiv">
+                 <div class="logo">Gymnacity</div>
+                  <ul>
+                     <li><a href="#home" onclick="home()">Home</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#plans">Plans</a></li>
+                     <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="upper" id="home">
+            <div class="headings">
+                <h1>Achieve Your Dream Fitness</h1>
+                <h2>Once You See Results,It Becomes An Addiction</h2>  
+                <p>Welcome to Gymnacity, your ultimate fitness destination! Whether you're a seasoned athlete or just starting your fitness journey, our state-of-the-art facilities and expert trainers are here to help you achieve your goals.</p> 
+                <button>Join Now</button>
+            </div>
+            <div class="img1">
+                <img class="img_deg" src="assets/homeimg.jpg" alt="gym">
+            </div>
+        </div>
+        <div id="services">
+            
+            <h2 class="services">Our Services</h2>
+            <div class="cover">
+               <div class="card">
+                   <img class="img2" src="assets/yoga.jpg" alt="">
+                   <h3>Yoga</h3>
+                   <p>Yoga is a meditative process of self-discovery and liberation.</p>
+                
+                </div>
+            <div class="card">
+                <img class="img2" src="assets/strength.jpg" alt="">
+                <h3>Strength Training</h3>
+                <p>Ready to take your strength training to new heights?</p>
+                
+            </div>
+            <div class="card">
+                <img class="img2" src="assets/fat.jpeg" alt="">
+                <h3>Fat Loss</h3>
+                <p>It’s about setting realistic goals and making simple lifestyle changes</p>
+                
+            </div>
+        </div>
+    </main>
+    <section>
+        <h2 class="our" id="plans">Our Plans</h2>
+        <div class="plans">
+            <div class="price">
+                <h1>Basic Membership</h1>
+                <h1>$29/Month</h1>
+                <h3>Features:</h3>
+                <ul>
+                    <li>Limited access to  gym</li><br>
+                    <li>No meal</li><br>
+                    <li>No training plan</li>
+                </ul>
+                <button class="buy">Buy Now</button>
+                
+            </div>
+            <div class="price">
+                <h1>Premium Membership</h1>
+                <h1>$49/Month</h1>
+                <h3>Features:</h3>
+                <ul>
+                    <li>Unlimited access to  gym</li><br>
+                    <li>Basic meal</li><br>
+                    <li>Training plan</li>
+                </ul>
+                <button class="buy">Buy Now</button>
+                
+            </div>
+            <div class="price">
+                <h1>Elite Membership</h1>
+                <h1>$79/Month</h1>
+                <h3>Features:</h3>
+                <ul>
+                    <li>24/7 access to  gym</li><br>
+                    <li>Personalized meal</li><br>
+                    <li>Personalized training plan</li>
+                </ul>
+                <button class="buy">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="contact" id="contact">Contact Us</h1>
+        <div class="phone">
+            <h3>E-mail : gymnacity2008@gmail.com</h3>
+            <h3>Phone : 0733-226385</h3>
+            <h3>Address : 29,Jawahar Marg,Indore,MP</h3>
+        </div>
+        <h1 class="us">Connect Us</h1>
+        <br>
+        <div class="connect">
+            <br>
+            <input type="text" placeholder="Enter Your Name" value="" id="name"> <br><br>
+            <input type="text" placeholder="Enter Your Number" value="" id="number"> <br><br><br>
+            <button onclick="submit()">Submit</button>
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <footer class="footer">
+        <p>Copyright © 2024 Dishant Patil. All rights reserved.</p>
+    </footer>
+    <script src="gym.js"></script>
+</body>
+</html>
